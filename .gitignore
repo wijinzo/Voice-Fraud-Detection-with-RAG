@@ -1,0 +1,48 @@
+# ========== 敏感資料 ==========
+# 環境變數（包含 API Keys）
+.env
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+
+# ========== 虛擬環境 ==========
+.venv/
+venv/
+ENV/
+env/
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========== 套件打包 ==========
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ========== uv ==========
+.python-version
+
+# ========== 作業系統 ==========
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========== 其他 ==========
+*.log
+*.tmp
+
+# ========== 大型檔案 ==========
+# 向量索引（其他人需要自己建立）
+storage_index/
+
+# 如果不想上傳原始資料，取消下面的註解
+# rag_data.txt
