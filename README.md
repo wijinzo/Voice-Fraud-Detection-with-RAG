@@ -1,10 +1,9 @@
 # 🎙️ 本地端防詐騙語音分析系統
 
-使用 RAG（檢索增強生成）與大型語言模型，即時分析語音通話內容，判斷是否為詐騙電話。
+使用 RAG（檢索增強生成）與大型語言模型，即時分析臨櫃提款，判斷是否為詐騙，已讓行員即時阻詐。
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Gradio](https://img.shields.io/badge/Gradio-4.0+-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## ✨ 功能特色
 
