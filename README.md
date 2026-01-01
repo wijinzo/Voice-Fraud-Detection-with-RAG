@@ -44,6 +44,10 @@
    git clone https://github.com/yourusername/fraud-detection.git
    cd fraud-detection
    ```
+   下載 RAG index 資料夾(已事先跑過):
+   ```bash
+   https://drive.google.com/drive/folders/1mFhQCAoh9RCt5iH0W5zjAYbfIKMtHO1h?usp=sharing
+   ```
 
 2. **建立環境變數**
    
