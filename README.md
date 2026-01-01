@@ -44,7 +44,8 @@
    git clone https://github.com/yourusername/fraud-detection.git
    cd fraud-detection
    ```
-   下載 RAG index 資料夾(已事先跑過):
+   
+   下載整個 RAG index 資料夾(也可以自己建立)，並儲存在storage_index資料夾:
    ```bash
    https://drive.google.com/drive/folders/1mFhQCAoh9RCt5iH0W5zjAYbfIKMtHO1h?usp=sharing
    ```
@@ -94,7 +95,7 @@ fraud-detection/
 ├── models.py           # 模型初始化（Embedding、LLM、RAG Index）
 ├── logic.py            # 業務邏輯（語音辨識、案例分析）
 ├── rag_data.txt        # RAG 知識庫資料
-├── storage_index/      # 向量索引儲存目錄
+├── storage_index/      # 向量索引儲存目錄 (須將步驟1下載的資料夾放在這裡)
 ├── pyproject.toml      # 專案依賴設定
 └── .env                # 環境變數（API Keys）
 ```
