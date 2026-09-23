@@ -1,5 +1,5 @@
-# ========== 敏感資料 ==========
-# 環境變數（包含 API Keys）
+# ========== Sensitive data ==========
+# Environment variables containing API keys
 .env
 
 # ========== Python ==========
@@ -10,7 +10,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# ========== 虛擬環境 ==========
+# ========== Virtual environments ==========
 .venv/
 venv/
 ENV/
@@ -22,7 +22,7 @@ env/
 *.swp
 *.swo
 
-# ========== 套件打包 ==========
+# ========== Package builds ==========
 dist/
 build/
 *.egg-info/
@@ -31,18 +31,18 @@ build/
 # ========== uv ==========
 .python-version
 
-# ========== 作業系統 ==========
+# ========== Operating system ==========
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-# ========== 其他 ==========
+# ========== Miscellaneous ==========
 *.log
 *.tmp
 
-# ========== 大型檔案 ==========
-# 向量索引（其他人需要自己建立）
+# ========== Large files ==========
+# Vector index; each user should build or download it locally
 storage_index/
 
-# 如果不想上傳原始資料，取消下面的註解
+# Uncomment the following line to keep the source knowledge base local
 # rag_data.txt
